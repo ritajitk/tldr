@@ -14,6 +14,6 @@
 
 `split -b {{512}} {{filename}}`
 
-- Split a file into 10 files with 100 Kbytes, where each file is named with numeric suffixes (easier to merge later):
+- Split a file with 100 Kbytes chunks, where each file is named with numeric suffixes (easier to merge later):
 
 `split -d -b {{100k}} {{filename}} {{output}}`
